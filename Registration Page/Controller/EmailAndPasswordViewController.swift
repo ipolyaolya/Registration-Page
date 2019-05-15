@@ -29,7 +29,6 @@ class EmailAndPasswordViewController: UIViewController, UITextFieldDelegate {
         if let age = user?.age {
             page3Label.text = "So, you're " + String(age)
         }
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

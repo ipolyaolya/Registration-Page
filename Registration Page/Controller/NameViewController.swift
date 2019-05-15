@@ -22,7 +22,6 @@ class NameViewController: UIViewController, UITextFieldDelegate {
         setImagesForBackground()
         self.hideKeyboardWhenTappedAround()
         self.nameTextField.delegate = self
-
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -54,7 +53,6 @@ class NameViewController: UIViewController, UITextFieldDelegate {
         self.view.endEditing(true)
         return false
     }
-    
 }
 
 // расширение, которое убирает клавиатуру
@@ -68,6 +66,5 @@ extension UIViewController {
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
-    
 }
 

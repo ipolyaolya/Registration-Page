@@ -66,13 +66,13 @@ class PhotoAndCameraViewController: UIViewController, UIImagePickerControllerDel
         if addPhotoImageView.image !== nil {
             destViewController.image = addPhotoImageView.image!
         } else {
-            destViewController.image = random()
+            destViewController.image = randomImage()
         }
         
         destViewController.user = user
     }
     
-    func random() -> UIImage {
+    func randomImage() -> UIImage {
         let image1 = UIImage(named: "1")
         let image2 = UIImage(named: "2")
         let image3 = UIImage(named: "3")
@@ -107,6 +107,4 @@ class PhotoAndCameraViewController: UIViewController, UIImagePickerControllerDel
         backgroundImageView.image = UIImage(named: "1x")
         view.sendSubviewToBack(backgroundImageView)
     }
-    
-    
 }

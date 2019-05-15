@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Name View Controller-->
+        <!--Name-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="NameViewController" customModule="Registration_Page" customModuleProvider="target" sceneMemberID="viewController">
@@ -78,7 +78,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="JV8-Ee-b89"/>
+                    <navigationItem key="navigationItem" title="Name" id="nci-ol-9Cp"/>
                     <connections>
                         <outlet property="helloLabel" destination="4Mn-b7-cRJ" id="Afl-Qa-g7a"/>
                         <outlet property="nameTextField" destination="KBR-MA-3Nh" id="bL8-JC-xi2"/>
@@ -88,7 +88,7 @@
             </objects>
             <point key="canvasLocation" x="1731.8840579710147" y="102.71739130434783"/>
         </scene>
-        <!--Age View Controller-->
+        <!--Age-->
         <scene sceneID="J10-qc-gah">
             <objects>
                 <viewController id="xve-mV-PYU" customClass="AgeViewController" customModule="Registration_Page" customModuleProvider="target" sceneMemberID="viewController">
@@ -160,6 +160,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2k2-QF-6BV"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Age" id="9tr-6U-fwc"/>
                     <connections>
                         <outlet property="dataOfBirthLabel" destination="Oye-By-faH" id="CX3-E1-SXv"/>
                         <outlet property="dateOfBirthDatePicker" destination="pO6-f4-aPU" id="pe0-Gv-oxF"/>
@@ -170,7 +171,7 @@
             </objects>
             <point key="canvasLocation" x="2592.8000000000002" y="102.99850074962519"/>
         </scene>
-        <!--Email And Password View Controller-->
+        <!--Email-->
         <scene sceneID="Gou-n4-jKa">
             <objects>
                 <viewController id="iH9-Sy-o02" customClass="EmailAndPasswordViewController" customModule="Registration_Page" customModuleProvider="target" sceneMemberID="viewController">
@@ -259,6 +260,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mOf-eE-GtI"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Email" id="EPY-zR-ZKA"/>
                     <connections>
                         <outlet property="emailTextField" destination="Szi-mC-v81" id="CMb-MV-s2u"/>
                         <outlet property="page3Label" destination="kTt-g2-qfo" id="h4i-B2-lAX"/>
@@ -270,7 +272,7 @@
             </objects>
             <point key="canvasLocation" x="853.60000000000002" y="848.72563718140941"/>
         </scene>
-        <!--Finale View Controller-->
+        <!--The end-->
         <scene sceneID="jQz-Ve-aXU">
             <objects>
                 <viewController id="ERH-JB-NV7" customClass="FinaleViewController" customModule="Registration_Page" customModuleProvider="target" sceneMemberID="viewController">
@@ -339,7 +341,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ani-Cp-kH3"/>
                     </view>
-                    <navigationItem key="navigationItem" id="pBv-vc-1WL"/>
+                    <navigationItem key="navigationItem" title="The end" id="iFi-vy-FbP"/>
                     <connections>
                         <outlet property="ageLabel" destination="HJy-yS-4br" id="2ld-s3-kOv"/>
                         <outlet property="cityLabel" destination="Hc5-OI-D7x" id="DLV-qB-4hF"/>
@@ -352,7 +354,7 @@
             </objects>
             <point key="canvasLocation" x="853.62318840579712" y="1607.608695652174"/>
         </scene>
-        <!--Location View Controller-->
+        <!--City-->
         <scene sceneID="rOR-ve-zli">
             <objects>
                 <viewController id="x7s-SO-ZXu" customClass="LocationViewController" customModule="Registration_Page" customModuleProvider="target" sceneMemberID="viewController">
@@ -436,6 +438,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="I3d-RK-sbl"/>
                     </view>
+                    <navigationItem key="navigationItem" title="City" id="CxI-nu-lLU"/>
                     <connections>
                         <outlet property="cityTextField" destination="Q7u-4V-1ck" id="PZt-yh-lwE"/>
                         <outlet property="label" destination="hQO-eq-4Pv" id="tRy-n0-VmX"/>
@@ -446,7 +449,7 @@
             </objects>
             <point key="canvasLocation" x="1732" y="848.72563718140941"/>
         </scene>
-        <!--Photo And Camera View Controller-->
+        <!--Photo-->
         <scene sceneID="N26-jO-mXo">
             <objects>
                 <viewController id="rrZ-DU-VgS" customClass="PhotoAndCameraViewController" customModule="Registration_Page" customModuleProvider="target" sceneMemberID="viewController">
@@ -516,6 +519,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qUm-RW-OKo"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Photo" id="Xbg-Hw-SJv"/>
                     <connections>
                         <outlet property="addPhotoImageView" destination="dH8-qC-Ugx" id="XIV-dN-BVd"/>
                     </connections>
@@ -541,5 +545,5 @@
             <point key="canvasLocation" x="855" y="103"/>
         </scene>
     </scenes>
-    <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <color key="tintColor" red="0.027458636090159416" green="0.11258450895547867" blue="0.17494231462478638" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

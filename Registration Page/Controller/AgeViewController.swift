@@ -39,7 +39,6 @@ class AgeViewController: UIViewController, UITextFieldDelegate {
         let age = ageComponents.year!
         ageNew = age
         print(ageNew)
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

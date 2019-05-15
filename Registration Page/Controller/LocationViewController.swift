@@ -65,6 +65,7 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate {
                 }
             }
         }
+        self.manager.stopUpdatingLocation()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
