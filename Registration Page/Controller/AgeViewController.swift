@@ -47,7 +47,6 @@ class AgeViewController: UIViewController, UITextFieldDelegate {
         destViewController.user = user
     }
     
-    // цвет UIDatePicker
     func colorDatePicker() {
         dateOfBirthDatePicker.setValue(UIColor.white, forKeyPath: "textColor")
     }

@@ -33,7 +33,13 @@ class EmailAndPasswordViewController: UIViewController, UITextFieldDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destViewController: LocationViewController = segue.destination as! LocationViewController
-        user?.email = emailTextField.text!
+        
+        if emailTextField.text!.count > 0 {
+            user?.email = emailTextField.text!
+        } else {
+            user?.email = "Your email could be here"
+        }
+
         destViewController.user = user
     }
     
@@ -49,7 +55,6 @@ class EmailAndPasswordViewController: UIViewController, UITextFieldDelegate {
         view.sendSubviewToBack(backgroundImageView)
     }
     
-    // клавиатура уходит после нажатия на Done
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.view.endEditing(true)
         return false

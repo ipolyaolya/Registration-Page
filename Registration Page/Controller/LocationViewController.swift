@@ -53,7 +53,7 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate {
                 print ("THERE WAS AN ERROR")
             } else {
                 if let place = placemark?[0] {
-                    if let checker = place.country { //place.subThoroughfare
+                    if let checker = place.country {
                         self.label.text! = "\(place.locality!), \(place.country!)"
                         
                         if self.label.text!.count > 0 {

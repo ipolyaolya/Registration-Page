@@ -48,14 +48,12 @@ class NameViewController: UIViewController, UITextFieldDelegate {
         view.sendSubviewToBack(backgroundImageView)
     }
     
-// клавиатура уходит после нажатия на Done
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.view.endEditing(true)
         return false
     }
 }
 
-// расширение, которое убирает клавиатуру
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
